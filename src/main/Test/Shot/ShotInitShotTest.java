@@ -1,3 +1,5 @@
+package Shot;
+
 import org.junit.jupiter.api.Test;
 import space_invaders.sprites.Shot;
 import java.lang.reflect.Field;

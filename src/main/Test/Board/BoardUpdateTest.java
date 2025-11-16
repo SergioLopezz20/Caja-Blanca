@@ -1,3 +1,5 @@
+package Board;
+
 import main.Board;
 import org.junit.jupiter.api.Test;
 import java.lang.reflect.Method;
