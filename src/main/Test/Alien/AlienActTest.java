@@ -19,6 +19,6 @@ public class AlienActTest {
     void alienActcorrecto(){
         Alien alien=new Alien(10,0);
         alien.act(5);
-        assertEquals(5, alien.getX());
+        assertEquals(15, alien.getX());
     }
 }

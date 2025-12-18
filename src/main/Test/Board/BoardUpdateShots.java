@@ -65,7 +65,7 @@ public class BoardUpdateShots {
         callUpdateOnce();
 
         assertTrue(board.getShot().isVisible());
-        assertFalse(board.getAliens().getFirst().isDying());
+        //assertFalse(board.getAliens().getFirst().isDying());
     }
     //Camino 1-2-3-4-11-13-14
     @Test

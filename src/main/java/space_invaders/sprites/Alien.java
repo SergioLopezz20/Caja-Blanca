@@ -82,7 +82,7 @@ public class Alien extends Sprite {
      */
     public void act(int direction) {
 
-        this.x -= direction;
+        this.x += direction;   // Se cambia de un -= a un +=
     }
 
     /**
