@@ -1,4 +1,4 @@
-package Alien;
+package Alien.Blanca;
 
 import main.Commons;
 import org.junit.jupiter.api.AfterEach;

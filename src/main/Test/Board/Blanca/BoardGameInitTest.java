@@ -1,12 +1,14 @@
-package Player;
+package Board.Blanca;
 
+import main.Board;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import space_invaders.sprites.Player;
+
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
-public class PlayerInitTest {
+
+public class BoardGameInitTest {
     @BeforeEach
     void setUp() {
     }
@@ -16,8 +18,9 @@ public class PlayerInitTest {
     }
 
     @Test
-    void playerInitCorrecto(){
-       Player player=new Player();
-       assertNotEquals(null,player);
+    void gameInitCorrecto(){
+        Board board = new Board();
+        assertNotEquals(null,board);
+
     }
 }

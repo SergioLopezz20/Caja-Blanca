@@ -1,4 +1,4 @@
-package Board;
+package Board.Blanca;
 
 import main.Board;
 import main.Commons;

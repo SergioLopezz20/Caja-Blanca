@@ -1,4 +1,4 @@
-package Alien;
+package Alien.Blanca;
 
 import org.junit.jupiter.api.Test;
 import space_invaders.sprites.Alien;

@@ -82,8 +82,17 @@ public class Alien extends Sprite {
      */
     public void act(int direction) {
 
-        this.x += direction;   // Se cambia de un -= a un +=
+        if(x+direction>=Commons.BOARD_WIDTH){ //controlamos que no se pase del límite derecho
+                this.x=Commons.BOARD_WIDTH;
+        }
+        else if(x+direction<=0){ //controlamos que no se pase del límite izqdo
+                this.x=0;
+        }
+        else{
+            this.x += direction;// Se cambia de un -= a un +=
+        }
     }
+
 
     /**
      * {@summary <span class="alert-small">⛔🧪</span> Devuelve el objeto explosión asociado al alien}

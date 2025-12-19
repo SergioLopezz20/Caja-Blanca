@@ -1,4 +1,4 @@
-package Player;
+package Player.Blanca;
 
 import org.junit.jupiter.api.Test;
 import space_invaders.sprites.Player;

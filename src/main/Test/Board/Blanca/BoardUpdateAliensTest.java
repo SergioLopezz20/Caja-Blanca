@@ -1,4 +1,4 @@
-package Board;
+package Board.Blanca;
 
 import org.junit.jupiter.api.Test;
 import space_invaders.sprites.Alien;
