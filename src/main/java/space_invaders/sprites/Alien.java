@@ -138,16 +138,21 @@ public class Alien extends Sprite {
         private void initBomb(int x, int y) {
 
             setDestroyed(true);
+            this.x = x;
+            this.y = y;
 
-            if (x<= Commons.BOARD_WIDTH && y<= Commons.BOARD_HEIGHT) {
-                this.x += x;
-                this.y += y;
-            } else
-            {
+            if (x > Commons.BOARD_WIDTH) {
                 this.x = Commons.BOARD_WIDTH;
+            }
+            if(y > Commons.BOARD_HEIGHT){
                 this.y = Commons.BOARD_HEIGHT;
             }
-
+            if (x<0){
+                x =0;
+            }
+            if (y<0){
+                y=0;
+            }
             var bombImg = "src/main/resources/images/bomb.png";
             var ii = new ImageIcon(bombImg);
             setImage(ii.getImage());
